@@ -96,9 +96,10 @@ cp .env.sample .env
 
 コピーした`.env`ファイルを編集して、以下の変数を指定してください。
 
-| Key                              | value                                                                |
-| :------------------------------- | :------------------------------------------------------------------- |
-| FLEX_APP_KINTONE_CUSTOMER_APP_ID | 顧客情報アプリの ID（<https://xxxxx.cybozu.com/k/NN/> の NN の部分） |
+| Key                              | value                                                                  |
+| :------------------------------- | :--------------------------------------------------------------------- |
+| FLEX_APP_KINTONE_SUB_DOMAIN      | kintone のサブドメイン名（<https://xxxxx.cybozu.com> の xxxxx の部分） |
+| FLEX_APP_KINTONE_CUSTOMER_APP_ID | 顧客情報アプリの ID（<https://xxxxx.cybozu.com/k/NN/> の NN の部分）   |
 
 ## デプロイ
 

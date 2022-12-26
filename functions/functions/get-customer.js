@@ -37,7 +37,7 @@ exports.handler = async function (context, event, callback) {
       return tel === from;
     });
     const result = {};
-    result.id = customer.length > 0 ? customer[0]['レコード番号'].value : '';
+    result.id = customer.length > 0 ? customer[0]['$id'].value : '';
     console.log(result.id);
     result.customerName =
       customer.length > 0 ? customer[0][KINTONE_NAME_FIELD_CODE].value : from;
